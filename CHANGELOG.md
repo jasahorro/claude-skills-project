@@ -16,4 +16,7 @@ Clean. There are no uncommitted changes.
 ## Tracked Files
 
 - `app.py`: A small Python script with `greet(name)`, which returns a welcome message, plus `add(a, b)` and `multiply(a, b)` for simple arithmetic. When run directly, it prints all three results.
+- `.claude/skills/smart-commit/SKILL.md`: A Claude Code skill that stages all changes and commits them with a conventional commit message.
+- `.claude/skills/changelog/SKILL.md`: A Claude Code skill that regenerates `CHANGELOG.md` from the git history.
+- `.claude/skills/dev-pipeline/SKILL.md`: A Claude Code skill that runs smart-commit and then changelog in one step.
 - `CHANGELOG.md`: This file. It lists the project's commit history, working tree status, and tracked files.
